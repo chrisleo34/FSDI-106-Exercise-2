@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">  
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Register</title>
+</head>
+<body>
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(98, 84, 129);">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse"     id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="admin.html">Register</a>
+            </li>
+          </ul>
+        </div> 
+           <div class="">
+             <form class="form-inline my-2 my-lg-0">
+              <input class="form-control  mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+           </div>
+            
+      </nav>
+    </div>
+
+
+
+
+    <div class="container">
+        <h1>Register a New Product</h1>
+    </div>
+    
+    <div class="container">
+      <div>
+          <div class="col-sm-4 form-group ">
+              <label for="code">Code:</label>
+              <input type="code" class="form-control" type="text">
+          </div>
+          
+          <div class="col-sm-4 form-group">
+              <label for="title">Title:</label>
+              <input type="title" class="form-control" type="text">
+          </div>
+          
+          <div class="col-sm-4 form-group">
+              <label for="description">Description:</label>
+              <input type="description" class="form-control" type="text">
+          </div>
+          <div class=" col-sm-4 form-group">
+              <label for="category">Category:</label>
+              <input type="category" class="form-control" type="text">
+          </div>
+          <div class="col-sm-3 form-group">
+              <label for="exampleFormControlSelect1">Image:</label>
+              <select class="form-control" id="ddslick">
+                <option >Iphone X</option>
+                <option >Samsung Tv</option>
+                <option >Alexa Speakers</option>
+                
+              </select>
+          </div>
+    </div>
+  </div>
+    <div class="container">
+      <button id="btn-register" class="btn btn-secondary" type="submit" >Register</button>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="/js/admin.js"></script>
+</body>
+</html>
